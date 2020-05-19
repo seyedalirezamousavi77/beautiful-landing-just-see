@@ -5,21 +5,16 @@
 body{
     direction: rtl;
 }
-.fa-1x {
-    font-size: 1.5rem;
-    }
-    .navbar-toggler.toggler-example {
-    cursor: pointer;
-    }
-    .dark-blue-text {
-    color: #0A38F5;
-    }
-    .dark-pink-text {
-    color: #AC003A;
-    }
-    .dark-amber-text {
-    color: #ff6f00;
-    }
-    .dark-teal-text {
-    color: #004d40;
-    }
+input:focus {
+    outline:none;
+}
+.navbar-menu{
+    box-shadow: 0px 1px 8px 0px #ccc;
+}
+.navbar-menu button{
+    outline: none;
+    border: none;
+}
+.navbar-menu input{
+    border: none;
+}
