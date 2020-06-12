@@ -24,62 +24,165 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <div class="main container-fluid px-0">
-        <div class="navbar-menu px-4">
-            <div class="row">
-                <div class="col-12">
-                    <!--Navbar-->
-                    <nav class="navbar navbar-light light-blue lighten-4 px-0">
-
-
-                        <!-- Collapse button -->
-                        <button class="navbar-toggler toggler-example pr-0" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
-                            aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-                                    class="fas fa-bars fa-1x pl-2"></i>جاستسی</span></button>
-
-                        <!-- Collapsible content -->
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
-                            <!-- Links -->
+    <div class="loading">
+        <img src="/export/logo.png" width="50px" height="50px" alt="">
+    </div>
+    <div class="container-fluid p-0 main mx-auto overflow-hidden">
+        <div class="row p-0">
+            <div class="col-12 mx-3 mx-md-5">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light row flex-row-reverse p-0 mx-md-5">
+                    <div
+                        class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 d-flex justify-content-between mx-3 mx-md-5 flex-row-reverse flex-md-row">
+                        <form class="form-inline d-md-none d-lg-none d-xl-none">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav mx-auto text-center">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#">صفخه اصلی <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Features</a>
+                                    <a class="nav-link" href="#">ایده ها</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
+                                    <a class="nav-link" href="#">ویزگی ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">درباره ما</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">همکاری با ما</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">تماس با ما</a>
                                 </li>
                             </ul>
-                            <!-- Links -->
-
                         </div>
-                        <!-- Collapsible content -->
+                        <button class="btn btn-primary d-xs-none d-none d-md-flex">دانلود</button>
+                    </div>
+                    <div class="col-8 col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                        <!-- <img src="export/009_logo_Bg.svg" alt=""> -->
+                        <div class="mx-3 d-flex justify-content-start about-brand ">
+                            <!-- <img src="export/009_logo_Bg.svg" class="logo-bg" alt=""> -->
+                            <img src="/export/logo.png" width="50px" height="50px" alt="">
+                            <h3>جاستسی</h3>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="about-header m-4">
+                    <h3>بهتر بشناسید</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها
+                        و
+                        متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته</p>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <!--Carousel Wrapper-->
+                <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-                        <!-- Search form -->
-                        <form class="form-inline d-flex justify-content-end">
-                            <input class="form-control form-control-sm w-75" type="text" aria-label="Search">
-                            <i class="fas fa-search p-0 m-0 text-left"></i>
-                        </form>
+                    <!--Controls-->
+                    <div class="controls-top">
+                        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i
+                                class="fas fa-chevron-left"></i></a>
+                        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+                                class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
 
-                    </nav>
-                    <!--/.Navbar-->
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                        <li data-target="#multi-item-example" data-slide-to="1"></li>
+                        <li data-target="#multi-item-example" data-slide-to="2"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+
+                        <!--First slide-->
+                        <div class="carousel-item active">
+                            <img src="export/002_slide1_bg.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="wave">
+            <img src="export/011_bg_wave.svg" alt="">
+        </div>
+        <div class="row">
+            <!-- mobile stepper -->
+            <div class="col-12 d-lg-none d-xl-none">
+                mobile stepper
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+
+            </div>
+            <div class="d-none d-md-block d-lg-block d-xl-blocl col-md-2 col-lg-2 col-xl-2">
+                stepper
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <h3>بهتر بشناسید</h3>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و
+                    متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 mx-auto">
+                <div class="container border border-primary">
+                    sdf
+                </div>
+            </div>
+        </div>
+        <div class="ready">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel voluptas voluptates vitae voluptate
+                consequatur ratione, quod eius aperiam, assumenda inventore laborum fugit, expedita mollitia sunt ex!
+                Sint labore exercitationem sed?</p>
+            <button class="btn btn-primary btn-rounded">bashe</button>
+        </div>
+        <div class="row">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 mx-auto">
+                <h3></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sapiente ex nobis dolorum quam
+                    perferendis nemo cupiditate porro laborum facilis incidunt hic id repellendus mollitia labore quod
+                    harum enim repellat.</p>
+            </div>
+            <div class="img-idea mx-auto">
+                <img src="export/soltan.jpg" alt="">
+                <img src="export/1.jpg" alt="">
+                <img src="export/2.jpg" alt="">
+                <img src="export/3.jpg" alt="">
+                <img src="export/4.jpg" alt="">
+            </div>
+        </div>
+
     </div>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
     <script src="./js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
