@@ -29,95 +29,145 @@
     </div>
     <div class="container-fluid p-0 main mx-auto overflow-hidden">
         <div class="row p-0">
-            <div class="col-12 mx-3 mx-md-5">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light row flex-row-reverse p-0 mx-md-5">
+            <div class="col-12">
+                <nav
+                    class="navbar navbar-expand-lg navbar-light bg-light row flex-row-reverse align-items-start m-container mx-xs-0 mx-sm-0 p-0">
                     <div
-                        class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 d-flex justify-content-between mx-3 mx-md-5 flex-row-reverse flex-md-row">
-                        <form class="form-inline d-md-none d-lg-none d-xl-none">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        class="nab-height col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 d-flex justify-content-between flex-row-reverse flex-md-row">
+                        <form class="form-inline d-xs-flex justify-content-start d-md-none d-lg-none d-xl-none">
+                            <input class="form-control w-75" type="search" aria-label="Search"><i
+                                class="fa fa-search"></i>
                         </form>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                            aria-label="Toggle navigation">
+                        <!-- <button class="navbar-toggler " type="button"
+                            data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
+                            
+                        </button> -->
+                        <!-- <button class="navbar-toggler justify-content-end" data-target="#web-header-menu"
+                            data-toggle="collapse"><span class="navbar-toggler-icon"><i
+                                    class="fas fa-bars"></i></span></button> -->
+                        <button class="navbar-toggler d-xs-flex d-sm-flex d-md-none" type="button"
+                            data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            <h3>جاستسی</h3>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav mx-auto text-center">
-                                <li class="nav-item active">
+                        <div class="collapse navbar-collapse my-3" id="navbarNavDropdown">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active ml-3">
                                     <a class="nav-link" href="#">صفخه اصلی <span class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item ml-3">
                                     <a class="nav-link" href="#">ایده ها</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item ml-3">
                                     <a class="nav-link" href="#">ویزگی ها</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item ml-3">
                                     <a class="nav-link" href="#">درباره ما</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item ml-3">
                                     <a class="nav-link" href="#">همکاری با ما</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item ml-3">
                                     <a class="nav-link" href="#">تماس با ما</a>
                                 </li>
                             </ul>
                         </div>
-                        <button class="btn btn-primary d-xs-none d-none d-md-flex">دانلود</button>
+                        <button class="btn my-btn px-4 d-xs-none d-none d-md-flex my-3 ml-container">دانلود</button>
                     </div>
-                    <div class="col-8 col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
-                        <!-- <img src="export/009_logo_Bg.svg" alt=""> -->
-                        <div class="mx-3 d-flex justify-content-start about-brand ">
+                    <div class="col-8 col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4 position-relative logo-section p-0">
+                        <img src="export/009_logo_Bg.svg" alt="">
+                        <div class="d-flex justify-content-start about-brand">
                             <!-- <img src="export/009_logo_Bg.svg" class="logo-bg" alt=""> -->
                             <img src="/export/logo.png" width="50px" height="50px" alt="">
-                            <h3>جاستسی</h3>
+                            <h3 class="color-green">جاستسی</h3>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <div class="about-header m-4">
-                    <h3>بهتر بشناسید</h3>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و
-                        متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته</p>
-                </div>
-            </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <!--Carousel Wrapper-->
-                <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+        <div class="slider m-container">
 
-                    <!--Controls-->
-                    <div class="controls-top">
-                        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i
-                                class="fas fa-chevron-left"></i></a>
-                        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
-                                class="fas fa-chevron-right"></i></a>
+
+
+            <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators" style="bottom: -3.5rem;">
+                    <li data-target="#carousel-example-1z" data-slide-to="0" class="button-slider active"></li>
+                    <li data-target="#carousel-example-1z" data-slide-to="1" class="button-slider"></li>
+                    <li data-target="#carousel-example-1z" data-slide-to="2" class="button-slider"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row bg-slider">
+                            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="about-header mx-4">
+                                    <h3><span>بهتر </span>سفر کنید </h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است.
+                                        چاپگرها
+                                        و
+                                        متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                        تکنولوژی مورد نیاز و
+                                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                                        درصد گذشته</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 position-relative d-flex justify-content-end">
+                                <img class="w-85 d-flex" src="./export/001_slide1_woman_view.svg" alt="First slide">
+                            </div>
+                        </div>
                     </div>
-                    <!--/.Controls-->
-
-                    <!--Indicators-->
-                    <ol class="carousel-indicators">
-                        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-                        <li data-target="#multi-item-example" data-slide-to="1"></li>
-                        <li data-target="#multi-item-example" data-slide-to="2"></li>
-                    </ol>
-                    <!--/.Indicators-->
-
-                    <!--Slides-->
-                    <div class="carousel-inner" role="listbox">
-
-                        <!--First slide-->
-                        <div class="carousel-item active">
-                            <img src="export/002_slide1_bg.png" alt="">
+                    <div class="carousel-item">
+                        <div class="row bg-slider flex-row-reverse">
+                            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="about-header mx-4">
+                                    <h3><span>بهتر </span> بشناسید</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است.
+                                        چاپگرها
+                                        و
+                                        متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                        تکنولوژی مورد نیاز و
+                                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                                        درصد گذشته</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 position-relative d-flex justify-content-end">
+                                <img class="w-75 d-flex" src="./export/003_slide3_Reservation.svg" alt="First slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row bg-slider">
+                            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="about-header mx-4">
+                                    <h3><span>بهتر </span>بازی کنید </h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است.
+                                        چاپگرها
+                                        و
+                                        متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                        تکنولوژی مورد نیاز و
+                                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                                        درصد گذشته</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 position-relative d-flex justify-content-end">
+                                <img class="w-85 d-flex mt-4" src="./export/006_slide3_traveling.svg" alt="First slide">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
+
         </div>
         <div class="wave">
             <img src="export/011_bg_wave.svg" alt="">
@@ -176,8 +226,8 @@
 
 
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script> -->

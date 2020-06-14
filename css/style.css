@@ -1,6 +1,13 @@
+@font-face {
+    font-family: shabnam;
+    src: url(font/Shabnam-WOL.woff2) format('woff2');
+  }
 *{
     padding: 0;
     margin: 0;
+}
+input:focus{
+    outline: none;
 }
 html , body{
     width: 100%;
@@ -9,18 +16,130 @@ html , body{
     margin: 0;
     direction: rtl;
     background-color: #fdfdfd;
+    font-family: 'shabnam';
+    font-size: 1rem;
 }
 .m-container{
-    margin: 0 15rem;
+    margin: 0 12rem;
 }
-/* .logo-bg{
+.mr-container{
+    margin-right: 12rem;
+}
+.ml-container{
+    margin-left: 12rem;
+}
+.navbar-collapse li{
+    font-size: .8rem;
+}
+.about-brand{
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+.about-brand h3{
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    margin-right: .5rem;
+    font-weight: 700;
+    color: #009d79;
+}
+.navbar-toggler{
+    margin-right: 1rem;
+    border: none;
+    
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.form-control{
+    border :none;
+}
+.form-control:focus{
+    outline: none !important;
+}
+.form-inline:focus .form-control{
+    outline: none;
+    border-bottom: .1rem solid #555;
+}
+.left-60{
+    left: 60%;
+}
+.color-green{
+    color: #009d79 !important;
+}
+.my-btn{
+    font-size: .8rem;
+    background-color: #ff9100;
+    border-radius: 1rem;
+  text-align: left;
+  color: #ffffff;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+}
+
+
+
+.w-85{
+    width: 85% !important;
+}
+.carousel-item:first-child .bg-slider{
+    background-image:url(../export/slide1_balloon1.png),url(../export/slide1_balloon2.png),url(../export/slide1_balloon3.png), url(../export/002_slide1_bg.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: 3% 0% , 50% 40%, 65% 60%, 8% bottom;
+    background-size: auto ,auto , auto, 69% auto;
+}
+.carousel-item:nth-child(2) .bg-slider{
+    background-image:url(../export/005_slide2_airplane.png), url(../export/004_slide2_bg.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position:98% 10%, 88% bottom;
+    background-size: auto, 69% auto;
+}
+.carousel-item:nth-child(3) .bg-slider{
+    background-image:url(../export/008_slide3_birds.png), url(../export/007_slide3_bg.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: 35% 0%, 8% bottom;
+    background-size: auto, 60% 80%;
+}
+.about-header{
+    margin-top: 7rem;
+}
+.about-header h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #009d79;
+    margin-bottom: 3rem;
+}
+.about-header span{
+    padding-bottom: .5rem;
+    border-bottom: .2rem solid #009d79;
+}
+.about-header p{
+    font-size: .8rem;
+}
+.button-slider{
+    width: .8rem !important;
+    height: .8rem !important;
+    background-color: #aaaa !important;
+    border-radius: 50% !important;
+    margin: 0 .2rem !important;
+}
+.button-slider.active{
+    background-color: #ff9100 !important;
+    width:1.5rem !important;
+}
+/* 
+.nab-height{
+    height: 15rem;
+}
+.logo-bg{
     position: absolute;
     width: 15rem;
-} */
+}
 .about-brand{
     background-image: url(../export/009_logo_Bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 15rem;
 }
 .ready{
     background-image: url(../export/022_bg_amadegisafar.svg);
@@ -33,7 +152,7 @@ html , body{
     width: 220px;
     height: 150px;
 }
-/* input:focus {
+input:focus {
     outline:none;
 }
 .heder-section{
@@ -55,7 +174,7 @@ html , body{
     height: 17rem;
     margin-right: -5rem;
     background: url(../export/001_slide1_woman_view.png) left top no-repeat, url(../export/slide1_balloon3.png) left top no-repeat;
-} */
+}
 .loading{
     display: flex;
     justify-content: center;
@@ -65,4 +184,35 @@ html , body{
     height: 100%;
     position: fixed;
     background-color: #fff;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .carousel-item:first-child .bg-slider{
+        background-position: 75% 30% , 85% 45%, 5% 18%, center bottom;
+        background-size: auto ,auto , auto, 150% auto;
+    }
+    .carousel-item:nth-child(2) .bg-slider{
+        background-position: 75% 30% , 85% 45%, 5% 18%, center bottom;
+        background-size: auto ,auto , auto, 150% auto;
+    }
+    .carousel-item:nth-child(3) .bg-slider{
+        background-position: 75% 30% , 85% 45%, 5% 18%, center bottom;
+        background-size: auto ,auto , auto, 150% auto;
+    }
+    .about-header{
+        margin-top: 3rem;
+    }
+    .about-header h3{
+        margin-bottom: 2rem;
+    }
+  }
