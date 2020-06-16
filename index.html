@@ -14,8 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/bootstrap-rtl.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./icomoon/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
         integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bs-stepper.min.css">
 
 </head>
 
@@ -169,27 +171,171 @@
 
 
         </div>
-        <div class="wave">
-            <img src="export/011_bg_wave.svg" alt="">
+        <div class="wave mt-5">
+            <img class="mt-5" src="export/011_bg_wave.svg" alt="">
         </div>
-        <div class="row">
+        <div class="row stepper-section m-container">
             <!-- mobile stepper -->
             <div class="col-12 d-lg-none d-xl-none">
-                mobile stepper
-            </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <div class="">
+                    <div class="steps-form-mob mt-5">
+                        <div class="steps-row-mob setup-panel-mob d-flex justify-content-between">
+                            <div class="steps-step-mob mx-3 my-4">
+                                <a href="#step-5" type="button" class="btn btn-info btn-circle-mob waves-effect ml-0"
+                                    data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                        class="icon-icon_didani"></span></a>
+                            </div>
+                            <div class="steps-step-mob mx-3 my-4">
+                                <a href="#step-6" type="button" class="btn btn-pink btn-circle-mob waves-effect p-3"
+                                    data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                        class="icon-icon_restaurant"></span></a>
+                            </div>
+                            <div class="steps-step-mob mx-3 my-4">
+                                <a href="#step-7" type="button" class="btn btn-pink btn-circle-mob waves-effect"
+                                    data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                        class="icon-icon_hotel"></span></a>
+                            </div>
+                            <div class="steps-step-mob mx-3 my-4">
+                                <a href="#step-8" type="button" class="btn btn-pink btn-circle-mob waves-effect p-3"
+                                    data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                        class="icon-icon_fly"></span></a>
+                            </div>
+                            <div class="steps-step-mob mx-3 my-4">
+                                <a href="#step-9" type="button" class="btn btn-pink btn-circle-mob waves-effect p-3"
+                                    data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                        class="icon-icon_nearme"></span></a>
+                            </div>
+                            <div class="steps-step-mob no-height mx-3 my-4">
+                                <a href="#step-10" type="button" class="btn btn-pink btn-circle-mob waves-effect p-3"
+                                    data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                        class="icon-icon_favorites"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-            <div class="d-none d-md-block d-lg-block d-xl-blocl col-md-2 col-lg-2 col-xl-2">
-                stepper
+            <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 position-absulote my-stepper">
+                <img src="./export/stepper-image.png" class="mr-5" alt="">
             </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-                <h3>بهتر بشناسید</h3>
-                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                    چاپگرها
-                    و
-                    متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته</p>
+            <div
+                class="d-none d-md-block d-lg-block d-xl-blocl col-md-2 col-lg-2 col-xl-2 position-absulote my-stepper">
+                <div class="row d-flex justify-content-center">
+                    <div class="pl-5 pb-5">
+                        <div class="steps-form-3">
+                            <div class="steps-row-3 setup-panel-3 d-flex justify-content-between">
+                                <div class="steps-step-3">
+                                    <a href="#step-5" type="button" class="btn btn-info btn-circle-3 waves-effect ml-0"
+                                        data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                            class="icon-icon_didani"></span></a>
+                                </div>
+                                <div class="steps-step-3">
+                                    <a href="#step-6" type="button" class="btn btn-pink btn-circle-3 waves-effect p-3"
+                                        data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                            class="icon-icon_restaurant"></span></a>
+                                </div>
+                                <div class="steps-step-3">
+                                    <a href="#step-7" type="button" class="btn btn-pink btn-circle-3 waves-effect"
+                                        data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                            class="icon-icon_hotel"></span></a>
+                                </div>
+                                <div class="steps-step-3">
+                                    <a href="#step-8" type="button" class="btn btn-pink btn-circle-3 waves-effect p-3"
+                                        data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                            class="icon-icon_fly"></span></a>
+                                </div>
+                                <div class="steps-step-3">
+                                    <a href="#step-9" type="button" class="btn btn-pink btn-circle-3 waves-effect p-3"
+                                        data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                            class="icon-icon_nearme"></span></a>
+                                </div>
+                                <div class="steps-step-3 no-height">
+                                    <a href="#step-10" type="button" class="btn btn-pink btn-circle-3 waves-effect p-3"
+                                        data-toggle="tooltip" data-placement="top" title="Basic Information"><span
+                                            class="icon-icon_favorites"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 about-stepper px-5">
+
+                <form role="form" action="" method="post">
+                    <div class="row setup-content-3" id="step-5">
+                        <h3>دیدنی ها ، جستجو کنید و وزرو کنید</h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک است.
+                            چاپگرها
+                            و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و
+                            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                            درصد گذشته
+                        </p>
+                    </div>
+                    <div class="row setup-content-3" id="step-6">
+                        <h3>رستوران ها ، جستجو کنید و وزرو کنید</h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک است.
+                            چاپگرها
+                            و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و
+                            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                            درصد گذشته
+                        </p>
+                    </div>
+                    <div class="row setup-content-3" id="step-7">
+                        <h3>هتل ها ، جستجو کنید و وزرو کنید</h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک است.
+                            چاپگرها
+                            و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و
+                            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                            درصد گذشته
+                        </p>
+                    </div>
+                    <div class="row setup-content-3" id="step-8">
+                        <h3>پروازها ، جستجو کنید و وزرو کنید</h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک است.
+                            چاپگرها
+                            و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و
+                            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                            درصد گذشته
+                        </p>
+                    </div>
+                    <div class="row setup-content-3" id="step-9">
+                        <h3>نزدیکترین ها ، جستجو کنید و وزرو کنید</h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک است.
+                            چاپگرها
+                            و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و
+                            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                            درصد گذشته
+                        </p>
+                    </div>
+                    <div class="row setup-content-3" id="step-10">
+                        <h3>علاقه مندی ها ، جستجو کنید و وزرو کنید</h3>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک است.
+                            چاپگرها
+                            و
+                            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و
+                            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه
+                            درصد گذشته
+                        </p>
+                    </div>
+                </form>
+
             </div>
         </div>
         <div class="row my-5">
@@ -232,6 +378,7 @@
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script> -->
     <script src="./js/bootstrap.min.js"></script>
+    <script src="bs-stepper.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
