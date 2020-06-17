@@ -10,6 +10,24 @@ $(window).resize(function () {
         $('.stepper-section').removeClass('m-container');
         $('.about-stepper').removeClass('mx-5');
         $('.logo-section').addClass('left-60');
+        $('.download-section').removeClass('m-container');
+        $('.download-section').removeClass('position-absolute');
+        $('#download-lg').removeClass('download-box');
+        $('#download-xs').addClass('download-box');
+        $('#img-download').addClass('w-25');
+        $('#img-download').removeClass('w-100');
+        $('#img-download').addClass('mx-auto');
+        $('#img-download').addClass('my-4');
+        $("#img-download").attr("src", "./export/021_dlbox_icon_download.svg");
+        $('.buttons').addClass('d-flex');
+        $('.buttons').addClass('align-items-center');
+        $('.buttons').addClass('flex-column');
+        $('.buttons').css('position', 'static');
+        $('.btn-download').css('position', 'static');
+        $('#download-form').removeClass('flex-row-reverse');
+        $('#download-form').addClass('flex-column-reverse');
+        $('#download-form').addClass('align-items-center');
+        $('#download-form').removeAttr('placeholder');
     }
     else {
         $('.logo-section').removeClass('left-60');
@@ -17,6 +35,23 @@ $(window).resize(function () {
         $('.stepper-section').addClass('m-container');
         $('.about-stepper').addClass('mx-5');
         $('.slider').addClass('m-container');
+        $('.download-section').addClass('m-container');
+        $('.download-section').addClass('position-absolute');
+        $('#download-lg').addClass('download-box');
+        $('#download-xs').removeClass('download-box');
+        $('#img-download').addClass('w-100');
+        $('#img-download').removeClass('w-25');
+        $('#img-download').removeClass('my-4');
+        $("#img-download").attr("src", "./export/019_dlbox_Bg.jpg");
+        $('.buttons').removeClass('d-flex');
+        $('.buttons').removeClass('align-items-center');
+        $('.buttons').removeClass('flex-column');
+        $('.buttons').css('position', 'absolute');
+        $('.btn-download').css('position', 'absolute');
+        $('#download-form').addClass('flex-row-reverse');
+        $('#download-form').removeClass('flex-column-reverse');
+        $('#download-form').removeClass('align-items-center');
+        $('#download-form:input').addAttr('placeholder');
     }
 });
 // $(document).ready(function () {

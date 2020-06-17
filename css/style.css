@@ -7,6 +7,10 @@
     padding: 0;
     margin: 0;
 }
+
+.clear{
+    clear: both;
+}
 input:focus{
     outline: none;
 }
@@ -400,9 +404,56 @@ input:focus {
     font-size: 2rem;
 }
 
-
-
-
+.download-box{
+    border-radius: 30px;
+    box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.download-box h3{
+    color: #009d79;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+.download-box p{
+    font-size: .8rem;
+    color: #333;
+    margin: 1rem;
+}
+.download-box .btn-download{
+    position: absolute;
+    top: auto;
+    left: 25%;
+    font-size: .6rem;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    background-color: #ff9100;
+    border-radius: 2rem;
+}
+.download-box input{
+    border: none;
+    background-color: #fafafa;
+    width: 24rem;
+    padding-left: 7.5rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+.download-box .buttons{
+    position: absolute;
+    left: 21.5%;
+}
+.download-box .buttons button{
+    font-size: .6rem;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    background-color: #009d79;
+    margin: 0 1.5rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
 
 
 @media only screen and (max-width: 768px) {
