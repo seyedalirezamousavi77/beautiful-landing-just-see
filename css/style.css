@@ -456,6 +456,35 @@ input:focus {
 }
 
 
+
+.ready img{
+    filter: url(../export/022_bg_amadegisafar.svg);
+    height: 12rem;
+    object-fit: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+.ready h3{
+    font-size: 1.2rem;
+    color: white;
+    margin: 2rem 0 1rem;
+}
+.ready p{
+    margin: 1rem 0;
+    font-size: .7rem;
+    color: white;
+}
+.ready button{
+    width: 5rem;
+    height: auto;
+    background-color: #ff9100;
+    font-size: .6rem;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ff9100;
+}
 @media only screen and (max-width: 768px) {
     .carousel-item:first-child .bg-slider{
         background-position: 75% 30% , 85% 45%, 5% 18%, center bottom;

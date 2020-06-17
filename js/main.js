@@ -8,7 +8,7 @@ $(window).resize(function () {
         $('.navbar').removeClass('m-container');
         $('.slider').removeClass('m-container');
         $('.stepper-section').removeClass('m-container');
-        $('.about-stepper').removeClass('mx-5');
+        $('.about-stepper').addClass('mx-auto');
         $('.logo-section').addClass('left-60');
         $('.download-section').removeClass('m-container');
         $('.download-section').removeClass('position-absolute');
@@ -33,7 +33,7 @@ $(window).resize(function () {
         $('.logo-section').removeClass('left-60');
         $('.navbar').addClass('m-container');
         $('.stepper-section').addClass('m-container');
-        $('.about-stepper').addClass('mx-5');
+        $('.about-stepper').removeClass('mx-auto');
         $('.slider').addClass('m-container');
         $('.download-section').addClass('m-container');
         $('.download-section').addClass('position-absolute');
