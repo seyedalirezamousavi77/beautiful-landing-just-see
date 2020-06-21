@@ -24,10 +24,15 @@ $(window).resize(function () {
         $('.buttons').addClass('flex-column');
         $('.buttons').css('position', 'static');
         $('.btn-download').css('position', 'static');
+        $('#version-dl').remove();
         $('#download-form').removeClass('flex-row-reverse');
         $('#download-form').addClass('flex-column-reverse');
         $('#download-form').addClass('align-items-center');
+        $('#idea-form').removeClass('flex-row-reverse');
+        $('#idea-form').addClass('flex-column-reverse');
+        $('#idea-form').addClass('align-items-center');
         $('#download-form').removeAttr('placeholder');
+        $('#footer').removeClass('m-container');
     }
     else {
         $('.logo-section').removeClass('left-60');
@@ -51,7 +56,12 @@ $(window).resize(function () {
         $('#download-form').addClass('flex-row-reverse');
         $('#download-form').removeClass('flex-column-reverse');
         $('#download-form').removeClass('align-items-center');
+        $('#idea-form').addClass('flex-row-reverse');
+        $('#idea-form').removeClass('flex-column-reverse');
+        $('#idea-form').removeClass('align-items-center');
         $('#download-form:input').addAttr('placeholder');
+        $('#footer').addClass('m-container');
+
     }
 });
 // $(document).ready(function () {
