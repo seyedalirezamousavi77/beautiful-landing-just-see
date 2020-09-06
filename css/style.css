@@ -1,7 +1,7 @@
-@font-face {
-    font-family: shabnam;
-    src: url(font/Shabnam-WOL.woff2) format('woff2');
-  }
+@font-face{
+    font-family: 'shabnam';
+    src: url('../font/Shabnam-WOL.woff2') format('woff2');
+}
 
 *{
     padding: 0;
@@ -507,7 +507,7 @@ html , body{
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 6rem 0 0;
+    padding: 8rem 0 0;
     position: relative;
 }
 .footer .tele{
@@ -554,7 +554,7 @@ html , body{
     margin: 0 auto;
     right: 40%;
     position: absolute;
-    bottom: 40%;
+    bottom: 53%;
 }
 .logo-footer p{
     font-size: .6rem;
@@ -590,13 +590,13 @@ html , body{
     color: #fff;
     font-size: .7rem;
     position: absolute;
-    bottom: 7%;
+    bottom: 20%;
 }
 .mail{
     color: #fff;
     font-size: .7rem;
     position: absolute;
-    bottom: 7%;
+    bottom: 20%;
     left: 23%;
 }
 

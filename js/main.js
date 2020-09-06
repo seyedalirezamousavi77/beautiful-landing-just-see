@@ -3,7 +3,7 @@ $(window).on("load", function () {
     console.log("fds")
 });
 
-$(window).resize(function () {
+$(window).ready(function () {
     if ($(window).width() < 768) {
         $('.navbar').removeClass('m-container');
         $('.slider').removeClass('m-container');
@@ -59,7 +59,7 @@ $(window).resize(function () {
         $('#idea-form').addClass('flex-row-reverse');
         $('#idea-form').removeClass('flex-column-reverse');
         $('#idea-form').removeClass('align-items-center');
-        $('#download-form:input').addAttr('placeholder');
+        // $('#download-form:input').addAttr('placeholder');
         $('#footer').addClass('m-container');
 
     }
